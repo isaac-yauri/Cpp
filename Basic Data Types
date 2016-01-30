@@ -1,0 +1,14 @@
+#include <iostream>
+#include <cstdio>
+using namespace std;
+
+int main() {
+    int a, b;
+    long c;
+    char d;
+    float e = 0.000000;
+    double f = 0.000000;
+    scanf("%d %d %ld %c %f %lf", &a, &b, &c, &d, &e, &f);
+    printf("%d\n%d\n%ld\n%c\n%f\n%lf", a, b, c, d, e, f);
+    return 0;
+}
